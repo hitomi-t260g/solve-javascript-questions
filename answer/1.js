@@ -31,3 +31,9 @@ sayHi();
 // }
 
 // sayHi();
+    // var: undefinedとしてメモリが確保される
+    // let: メモリの確保がない。これは"temporal dead zone"と呼ばれる。constも同じ
+// その状態ではどのような値やエラーとして処理されるのか
+    //undefined: undefinedが結果として出力される
+    //なにも値が設定されていない場合は、　reference errorとなる
+// 回答： D
