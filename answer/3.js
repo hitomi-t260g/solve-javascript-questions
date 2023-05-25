@@ -21,7 +21,7 @@ shape.perimeter();
 //正則関数の場合は、constしているベースオブジェクトをthisとして、そのプロパティであるradiusを参照することができる
 //アロー関数の場合は、現在の周囲の範囲を参照します。これは、perimeter関数を呼ぶと、shapeオブジェクトではなく、その周囲の範囲（例えば window）を参照することを意味します。
 // perimeterもthisでradiusをみるためには、正則関数に変更するとよい
-const shape = {
+const shape2 = {
   radius: 10,
   diameter() {
     return this.radius * 2;
